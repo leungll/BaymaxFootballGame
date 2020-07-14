@@ -11,7 +11,7 @@
 #define BMP_Header_Length 54
 GLuint tex1;
 
-GLfloat rotStep = 0.50f;
+GLfloat rotStep = 0.20f;
 GLfloat moveStep = 0.05f;
 GLfloat moveStepFootball = 2.0f;
 
@@ -243,8 +243,8 @@ LRESULT CALLBACK WndProc(HWND   hWnd,
 
     case WM_MOUSEMOVE:
         if(mouseFlag) {
-            xRot = (((int)(short)LOWORD(lParam)) - ptCurr.x) * 0.05;
-            yRot = (((int)(short)HIWORD(lParam)) - ptCurr.y) * 0.05;
+            xRot = (((int)(short)LOWORD(lParam)) - ptCurr.x) * 0.001;
+            yRot = (((int)(short)HIWORD(lParam)) - ptCurr.y) * 0.001;
             SendMessage(hWnd, WM_PAINT, 0, 0L);
         }
         break;
@@ -344,6 +344,10 @@ LRESULT CALLBACK WndProc(HWND   hWnd,
 
         case IDC_TranslateZ1:
             zPosition += moveStep;
+            break;
+
+        case IDC_TranslateZ2:
+            zPosition -= moveStep;
             break;
 
         case IDC_TranslateX1_Football:
