@@ -70,5 +70,5 @@
 ## 页面截图
 >程序的灵感来源于游戏机，在窗体的中间是游戏界面，左右两处的面板则像游戏机的控制按钮。左处面板，控制足球运动；右处面板，可控制整个物体的运动。最后呈现出的效果为控制 `Baymax` 踢足球。
 
-![Baymax1](https://cdn.jsdelivr.net/gh/leungll/ImgHosting/img/Baymax.jpg)
-![Baymax2](https://cdn.jsdelivr.net/gh/leungll/ImgHosting/img/Baymax2.jpg)
+![baymax-football-1](https://cdn.jsdelivr.net/gh/leungll/ImgHosting/img/baymax-football-1.jpg)
+![baymax-football-2](https://cdn.jsdelivr.net/gh/leungll/ImgHosting/img/baymax-football-2.jpg)
